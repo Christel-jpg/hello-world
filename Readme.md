@@ -190,7 +190,7 @@ This has two common roles
 | `admin`  | Full access to manage users, songs, playlists, and analytics               |
 | `customer` | Regular user who can create playlists, stream songs, and manage their own data |
 
-##🧑‍💼 Admin: View All Users and Their Roles
+## 🧑‍💼 Admin: View All Users and Their Roles
 ```
 SELECT user_id, username, email, created_at
 FROM users
@@ -199,7 +199,7 @@ ORDER BY created_at DESC;
 <img width="1336" height="728" alt="image" src="https://github.com/user-attachments/assets/317a81bb-0b16-4b0b-8b3c-8dd0f6293b63" />
 
 
-##🎧 Customer: View Their Own Playlists
+## 🎧 Customer: View Their Own Playlists
 ```
 SELECT playlist_id, name, created_at
 FROM playlists
